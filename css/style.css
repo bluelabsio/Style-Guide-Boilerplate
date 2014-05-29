@@ -2,20 +2,34 @@
   font-family: "HelveticaNeue", "Helvetica", Arial, sans-serif;
 }
 
+.flt-left {float: left;}
+
+.flt-right {float: right;}
+
+.clear {clear: both;}
+
+.txt-left {text-align: left;}
+
+.txt-right {text-align: right;}
+
+.txt-center {text-align: center;}
+
 /* -------------------------------------------------------------------------
  Colors
 ---------------------------------------------------------------------------- */
-.sg-color--a .sg-color-swatch {background: #88ffda;}
+.sg-color--a .sg-color-swatch {background: #236995;}
 
-.sg-color--b .sg-color-swatch {background: #4dd3c9;}
+.sg-color--b .sg-color-swatch {background: #2875A1;}
 
-.sg-color--c .sg-color-swatch {background: #339db0;}
+.sg-color--c .sg-color-swatch {background: #2E82AE;}
 
-.sg-color--d .sg-color-swatch {background: #2078aa;}
+.sg-color--d .sg-color-swatch {background: #3DA6D2;}
 
-.sg-color--e .sg-color-swatch {background: #3a517a;}
+.sg-color--e .sg-color-swatch {background: #42b3df;}
 
-.sg-color--f .sg-color-swatch {background: #384355;}
+.sg-color--f .sg-color-swatch {background: #48bfeb;}
+
+.sg-color--g .sg-color-swatch {background: #feffff;}
 
 
 /* -------------------------------------------------------------------------
@@ -23,7 +37,13 @@
 ---------------------------------------------------------------------------- */
 .sg-font-primary {font-family: "HelveticaNeue", "Helvetica", Arial, sans-serif;}
 
-.sg-font-secondary {font-family: Georgia, Times, "Times New Roman", serif;}
+.sg-font-secondary {font-family: "HelveticaNeue", "Helvetica", Arial, sans-serif;}
+
+
+/* -------------------------------------------------------------------------
+ Logos
+---------------------------------------------------------------------------- */
+.sg-logo-bg-dark {background: #236995;}
 
 
 /* -------------------------------------------------------------------------

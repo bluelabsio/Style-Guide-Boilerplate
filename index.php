@@ -69,7 +69,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
-  <title>Style Guide Boilerplate</title>
+  <title>BlueLabs Style Guide</title>
   <meta name="viewport" content="width=device-width">
   <!-- Style Guide Boilerplate Styles -->
   <link rel="stylesheet" href="css/sg-style.css">
@@ -80,7 +80,7 @@
 <body>
     
 <div id="top" class="sg-header sg-container">
-  <h1 class="sg-logo">STYLE GUIDE <span>BOILERPLATE</span></h1>
+  <h1 class="sg-logo">BlueLabs <span>StyleGuide</span></h1>
   <form id="js-sg-nav" action=""  method="post" class="sg-nav">
     <select id="js-sg-section-switcher" class="sg-section-switcher" name="sg_section_switcher">
         <option value="">Jump To Section:</option>
@@ -88,6 +88,7 @@
           <option value="#sg-about">About</option>
           <option value="#sg-colors">Colors</option>
           <option value="#sg-fontStacks">Font-Stacks</option>
+          <option value="#sg-logos">Logo Usage</option>
         </optgroup>
         <optgroup label="Base Styles">
           <?php listMarkupAsOptions('base'); ?>
@@ -110,32 +111,101 @@
     
     <div class="sg-colors sg-section">
       <h2 class="sg-h2"><a id="sg-colors" class="sg-anchor">Colors</a></h2>
-        <div class="sg-color sg-color--a"><span class="sg-color-swatch"><span class="sg-animated">#88ffda</span></span></div>
-        <div class="sg-color sg-color--b"><span class="sg-color-swatch"><span class="sg-animated">#4dd3c9</span></span></div>
-        <div class="sg-color sg-color--c"><span class="sg-color-swatch"><span class="sg-animated">#339db0</span></span></div>
-        <div class="sg-color sg-color--d"><span class="sg-color-swatch"><span class="sg-animated">#2078aa</span></span></div>
-        <div class="sg-color sg-color--e"><span class="sg-color-swatch"><span class="sg-animated">#3a517a</span></span></div>
-        <div class="sg-color sg-color--f"><span class="sg-color-swatch"><span class="sg-animated">#384355</span></span></div>
+        <div class="sg-color sg-color--a"><span class="sg-color-swatch"><span class="sg-animated">#236995 (35,105,149)</span></span></div>
+        <div class="sg-color sg-color--b"><span class="sg-color-swatch"><span class="sg-animated">#2875A1 (40,117,161)</span></span></div>
+        <div class="sg-color sg-color--c"><span class="sg-color-swatch"><span class="sg-animated">#2E82AE (46,130,174)</span></span></div>
+        <div class="sg-color sg-color--d"><span class="sg-color-swatch"><span class="sg-animated">#3DA6D2 (61,166,210)</span></span></div>
+        <div class="sg-color sg-color--e"><span class="sg-color-swatch"><span class="sg-animated">#42b3df (66,179,223)</span></span></div>
+        <div class="sg-color sg-color--f"><span class="sg-color-swatch"><span class="sg-animated">#48bfeb (72,191,235)</span></span></div>
+        <div class="sg-color sg-color--g"><span class="sg-color-swatch"><span class="sg-animated">#feffff (254,255,255)</span></span></div>
         <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
     </div><!--/.sg-colors-->
     
     <div class="sg-font-stacks sg-section">
       <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Font Stacks</a></h2>
-      <p class="sg-font sg-font-primary">"HelveticaNeue", "Helvetica", Arial, sans-serif;</p>
-      <p class="sg-font sg-font-secondary">Georgia, Times, "Times New Roman", serif;</p>
+      <p class="sg-font sg-font-primary"><a target="_blank" href="http://www.typography.com/fonts/knockout/webfonts/knockout-28/">"Knockout 28 A", "Knockout 28 B", "Arial", sans-serif;</a></p>
+      <p class="sg-font sg-font-secondary"><a target="_blank" href="https://stripe.com/">"Whitney SSm A", "Whitney SSm B", "Arial", sans-serif;</a></p>
       <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
     </div><!--/.sg-font-stacks-->
-  </div><!--/.sg-info-->    
+  </div><!--/.sg-info-->  
 
-  <div class="sg-base-styles">    
+  <div class="sg-logos sg-section">
+    <h2 class="sg-h2"><a id="sg-logos" class="sg-anchor">Logos</a></h2>
+    <p>Add your personalized documentation here.</p>
+    <figure class="flt-left">
+      <img src="images/logos/bluelabs-logo-large-blue.png" alt="Image Alt Text">
+      <figcaption>bluelabs-logo-large-blue.png</figcaption>
+    </figure>
+    <figure>
+      <img class="sg-logo-bg-dark" src="images/logos/bluelabs-logo-large-white.png" alt="Image Alt Text">
+      <figcaption>bluelabs-logo-large-white.png</figcaption>
+    </figure>
+<!--       <figure class="clear">
+      <img src="images/logos/bluelabs-logo-small-blue.png" alt="Image Alt Text">
+      <figcaption>bluelabs-logo-small-blue.png</figcaption>
+    </figure> -->
+<!--       <figure class="clear">
+      <img class="sg-logo-bg-dark" src="images/logos/bluelabs-logo-starburst-white-1500px.png" alt="Image Alt Text">
+      <figcaption>bluelabs-logo-starburst-white-1500px.png</figcaption>
+    </figure> -->
+    <figure class="clear flt-left">
+      <img src="images/logos/bluelabs-text-only-large-blue.png" alt="Image Alt Text">
+      <figcaption>bluelabs-text-only-large-blue.png</figcaption>
+    </figure>
+    <figure class="flt-left">
+      <img class="sg-logo-bg-dark" src="images/logos/bluelabs-text-only-large-white.png" alt="Image Alt Text">
+      <figcaption>bluelabs-text-only-large-white.png</figcaption>
+    </figure>
+    <figure class="flt-left clear">
+      <img src="images/logos/starburst-blue.png" alt="Image Alt Text" style="height:194px;">
+      <figcaption>starburst-blue.png</figcaption>
+    </figure>
+    <figure class="flt-left">
+      <img class="sg-logo-bg-dark" src="images/logos/starburst-white.png" alt="Image Alt Text">
+      <figcaption>starburst-white.png</figcaption>
+    </figure>
+    <div class="sg-markup-controls clear"><a class="sg-btn--top" href="#top">Back to Top</a></div>
+  </div><!--/.sg-font-stacks-->
+
+  <div class="sg-dos-donts sg-section">
+    <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Style Do's and Don'ts</a></h2>
+    <figure>
+      <h4>BlueLabs</h4>
+      <h4>blue.labs</h4>
+      <h4>Blue.Labs</h4>
+    </figure>
+    <figure>
+      <img src="images/dont/bluelabs-no-under-text.png" alt="Image Alt Text">
+      <figcaption>starburst-white.png</figcaption>
+    </figure>
+    <figure>
+      <img src="images/dont/bluelabs-logomarque-black_1200.png" alt="Image Alt Text">
+      <figcaption>starburst-white.png</figcaption>
+    </figure>
+    <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
+  </div><!--/.sg-info--> 
+
+  <div class="sg-pictures sg-section">
+    <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Pictures</a></h2>
+    <p>The pictures we use are expressive, show real emotions and are cropped for maximum effect.</p>
+    <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
+  </div><!--/.sg-info--> 
+
+  <div class="sg-pictures sg-section">
+    <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Tone</a></h2>
+    <p>The pictures we use are expressive, show real emotions and are cropped for maximum effect.</p>
+    <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
+  </div><!--/.sg-info--> 
+
+  <!-- <div class="sg-base-styles">    
     <h1 class="sg-h1">Base Styles</h1>
-    <?php showMarkup('base'); ?>
-  </div><!--/.sg-base-styles-->
+    <?php //showMarkup('base'); ?>
+  </div> --><!--/.sg-base-styles-->
 
-  <div class="sg-pattern-styles">
+  <!-- <div class="sg-pattern-styles">
     <h1 class="sg-h1">Pattern Styles<small> - Design and mark-up patterns unique to your site.</small></h1>
-    <?php showMarkup('patterns'); ?>
-    </div><!--/.sg-pattern-styles-->
+    <?php //showMarkup('patterns'); ?>
+    </div> --><!--/.sg-pattern-styles-->
   </div><!--/.sg-body-->
 
   <script src="js/sg-plugins.js"></script>
