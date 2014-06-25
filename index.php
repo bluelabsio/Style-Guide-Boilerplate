@@ -21,7 +21,7 @@
 
     sort($files);
     foreach ($files as $file):
-        $filename = preg_replace("/\.html$/i", "", $file); 
+        $filename = preg_replace("/\.html$/i", "", $file);
         $title = preg_replace("/\-/i", " ", $filename);
         $title = ucwords($title);
         echo '<option value="#sg-'.$filename.'">'.$title.'</option>';
@@ -73,12 +73,12 @@
   <meta name="viewport" content="width=device-width">
   <!-- Style Guide Boilerplate Styles -->
   <link rel="stylesheet" href="css/sg-style.css">
-  
+
   <!-- Replace below stylesheet with your own stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
+<body style="max-width: 1200px; margin: 0 auto;">
+
 <div id="top" class="sg-header sg-container">
   <h1 class="sg-logo">BlueLabs <span>StyleGuide</span></h1>
   <form id="js-sg-nav" action=""  method="post" class="sg-nav">
@@ -102,13 +102,13 @@
   </form><!--/.sg-nav-->
 </div><!--/.sg-header-->
 
-<div class="sg-body sg-container">
-  <div class="sg-info">               
+<div class="sg-body sg-container" style="width: 90%; margin-left: auto; margin-right: auto;">
+  <div class="sg-info">
     <div class="sg-about sg-section">
       <h2 class="sg-h2"><a id="sg-about" class="sg-anchor">About</a></h2>
       <p>Comments and documentation about your style guide. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis enim labore facilis consequuntur! Veritatis neque est suscipit tenetur temporibus enim consequatur deserunt perferendis. Neque nemo iusto minima deserunt amet.</p>
     </div><!--/.sg-about-->
-    
+
     <div class="sg-colors sg-section">
       <h2 class="sg-h2"><a id="sg-colors" class="sg-anchor">Colors</a></h2>
         <div class="sg-color sg-color--a"><span class="sg-color-swatch"><span class="sg-animated">#236995 (35,105,149)</span></span></div>
@@ -120,14 +120,14 @@
         <div class="sg-color sg-color--g"><span class="sg-color-swatch"><span class="sg-animated">#feffff (254,255,255)</span></span></div>
         <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
     </div><!--/.sg-colors-->
-    
+
     <div class="sg-font-stacks sg-section">
       <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Font Stacks</a></h2>
       <p class="sg-font sg-font-primary"><a target="_blank" href="http://www.typography.com/fonts/knockout/webfonts/knockout-28/">"Knockout 28 A", "Knockout 28 B", "Arial", sans-serif;</a></p>
       <p class="sg-font sg-font-secondary"><a target="_blank" href="https://stripe.com/">"Whitney SSm A", "Whitney SSm B", "Arial", sans-serif;</a></p>
       <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
     </div><!--/.sg-font-stacks-->
-  </div><!--/.sg-info-->  
+  </div><!--/.sg-info-->
 
   <div class="sg-logos sg-section">
     <h2 class="sg-h2"><a id="sg-logos" class="sg-anchor">Logos</a></h2>
@@ -168,36 +168,42 @@
   </div><!--/.sg-font-stacks-->
 
   <div class="sg-dos-donts sg-section">
-    <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Style Do's and Don'ts</a></h2>
+    <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Style Guide Don'ts</a></h2>
     <figure>
       <h4>BlueLabs</h4>
       <h4>blue.labs</h4>
       <h4>Blue.Labs</h4>
     </figure>
     <figure>
-      <img src="images/dont/bluelabs-no-under-text.png" alt="Image Alt Text">
-      <figcaption>starburst-white.png</figcaption>
+      <img src="images/dont/bluelabs-no-under-text.png" style="width: 200px;" alt="Image Alt Text">
+      <figcaption>The logo above that has not text under it should never be used outside of the website.</figcaption>
     </figure>
     <figure>
-      <img src="images/dont/bluelabs-logomarque-black_1200.png" alt="Image Alt Text">
-      <figcaption>starburst-white.png</figcaption>
+      <img src="images/dont/bluelabs-logomarque-black_1200.png" style="width: 200px;" alt="Image Alt Text">
+      <figcaption>No BlueLabs logo should ever have periods separating the logo. Also periods should never be used. The only spacer that should be used in the logo is a bullet.</figcaption>
     </figure>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
-  </div><!--/.sg-info--> 
+  </div><!--/.sg-info-->
+
+  <div class="sg-pictures sg-section">
+    <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Email Signature</a></h2>
+    <p>The email signature below should be used on all staff person's emails sent from a bluelabs.com email address.</p>
+    <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
+  </div><!--/.sg-info-->
 
   <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Pictures</a></h2>
     <p>The pictures we use are expressive, show real emotions and are cropped for maximum effect.</p>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
-  </div><!--/.sg-info--> 
+  </div><!--/.sg-info-->
 
   <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Tone</a></h2>
     <p>The pictures we use are expressive, show real emotions and are cropped for maximum effect.</p>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
-  </div><!--/.sg-info--> 
+  </div><!--/.sg-info-->
 
-  <!-- <div class="sg-base-styles">    
+  <!-- <div class="sg-base-styles">
     <h1 class="sg-h1">Base Styles</h1>
     <?php //showMarkup('base'); ?>
   </div> --><!--/.sg-base-styles-->
@@ -212,4 +218,3 @@
   <script src="js/sg-scripts.js"></script>
 </body>
 </html>
- 
