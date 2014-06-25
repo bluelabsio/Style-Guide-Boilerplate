@@ -188,6 +188,8 @@
   <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Email Signature</a></h2>
     <p>The email signature below should be used on all staff person's emails sent from a bluelabs.com email address.</p>
+    <span style="font-size: 1.2em;"><strong style="color: #2E82AE;">Courtney Eimerman-Wallace,</strong> Software Engineer</span> </br>
+    T: 312 505 1093  |  bluelabs.com  |  twitter.com/@blue_labs
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
   </div><!--/.sg-info-->
 
