@@ -188,7 +188,7 @@
     T: 312 505 1093  |  bluelabs.com  |  twitter.com/blue_labs
     <br>
     <br>
-    <p>You can find instructions for creating your signature <a download="docs/signature_instructions.pdf" href="">HERE</a>.</p>
+    <p>You can find instructions for creating your signature <a download href="docs/signature_instructions.pdf">HERE</a>.</p>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
   </div><!--/.sg-info-->
 
@@ -200,9 +200,9 @@
 
    <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Templates</a></h2>
-    <p>Presentation Template (<a download="docs/bl_at_a_glance.key" href="">Keynote</a> | <a download="docs/bl_at_a_glance.pptx" href="">Powerpoint</a>)</p>
-    <p>Alternate Presentation Template (<a download="docs/bluelabs_basic_sample.key" href="">Keynote</a> | <a download="docs/bluelabs_basic_sample.pptx" href="">Powerpoint</a>)</p>
-    <p>Proposal Template (<a download="docs/sample_proposal.key" href="">Keynote</a> | <a download="docs/sample_proposal.pptx" href="">Powerpoint</a>)</p>
+    <p>Presentation Template (<a download href="docs/bl_at_a_glance.key">Keynote</a> | <a href="docs/bl_at_a_glance.pptx" download>Powerpoint</a>)</p>
+    <p>Alternate Presentation Template (<a download href="docs/bluelabs_basic_sample.key">Keynote</a> | <a href="docs/bluelabs_basic_sample.pptx" download>Powerpoint</a>)</p>
+    <p>Proposal Template (<a href="docs/sample_proposal.key" download>Keynote</a> | <a href="docs/sample_proposal.pptx" download>Powerpoint</a>)</p>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
    </div><!--/.sg-info
 
