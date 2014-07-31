@@ -77,7 +77,7 @@
   <!-- Replace below stylesheet with your own stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="max-width: 1200px; margin: 0 auto;">
+<body style="max-width: 1400px; margin: 0 auto;">
 
 <div id="top" class="sg-header sg-container">
   <h1 class="sg-logo">BlueLabs <span>StyleGuide</span></h1>
@@ -89,12 +89,6 @@
           <option value="#sg-colors">Colors</option>
           <option value="#sg-fontStacks">Font-Stacks</option>
           <option value="#sg-logos">Logo Usage</option>
-        </optgroup>
-        <optgroup label="Base Styles">
-          <?php listMarkupAsOptions('base'); ?>
-        </optgroup>
-        <optgroup label="Pattern Styles">
-          <?php listMarkupAsOptions('patterns'); ?>
         </optgroup>
     </select>
     <input type="hidden" name="sg_uri" value="<?php echo $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>">
@@ -188,22 +182,29 @@
   <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Email Signature</a></h2>
     <p>The email signature below should be used on all staff person's emails sent from a bluelabs.com email address.</p>
+    <br>
+    <br>
     <span style="font-size: 1.2em;"><strong style="color: #2E82AE;">Courtney Eimerman-Wallace,</strong> Software Engineer</span> </br>
-    T: 312 505 1093  |  bluelabs.com  |  twitter.com/@blue_labs
+    T: 312 505 1093  |  bluelabs.com  |  twitter.com/blue_labs
+    <br>
+    <br>
+    <p>You can find instructions for creating your signature <a download="docs/signature_instructions.pdf" href="">HERE</a>.</p>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
   </div><!--/.sg-info-->
 
-  <div class="sg-pictures sg-section">
+ <!--  <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Pictures</a></h2>
     <p>The pictures we use are expressive, show real emotions and are cropped for maximum effect.</p>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
-  </div><!--/.sg-info-->
+  </div> --><!--/.sg-info-->
 
-  <div class="sg-pictures sg-section">
-    <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Tone</a></h2>
-    <p>The pictures we use are expressive, show real emotions and are cropped for maximum effect.</p>
+   <div class="sg-pictures sg-section">
+    <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Templates</a></h2>
+    <p>Presentation Template (<a download="docs/bl_at_a_glance.key" href="">Keynote</a> | <a download="docs/bl_at_a_glance.pptx" href="">Powerpoint</a>)</p>
+    <p>Alternate Presentation Template (<a download="docs/bluelabs_basic_sample.key" href="">Keynote</a> | <a download="docs/bluelabs_basic_sample.pptx" href="">Powerpoint</a>)</p>
+    <p>Proposal Template (<a download="docs/sample_proposal.key" href="">Keynote</a> | <a download="docs/sample_proposal.pptx" href="">Powerpoint</a>)</p>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
-  </div><!--/.sg-info-->
+   </div><!--/.sg-info
 
   <!-- <div class="sg-base-styles">
     <h1 class="sg-h1">Base Styles</h1>
