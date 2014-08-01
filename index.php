@@ -75,6 +75,7 @@
   <link rel="stylesheet" href="css/sg-style.css">
 
   <!-- Replace below stylesheet with your own stylesheet -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body style="max-width: 1400px; margin: 0 auto;">
@@ -87,8 +88,11 @@
         <optgroup label="Intro">
           <option value="#sg-about">About</option>
           <option value="#sg-colors">Colors</option>
-          <option value="#sg-fontStacks">Font-Stacks</option>
+          <option value="#sg-fontStacks">Typography</option>
           <option value="#sg-logos">Logo Usage</option>
+          <option value="#sg-dos-donts">BlueLabs Style Don'ts</option>
+          <option value="#sg-email">Email Signature</option>
+          <option value="#sg-templates">Templates</option>
         </optgroup>
     </select>
     <input type="hidden" name="sg_uri" value="<?php echo $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>">
@@ -99,8 +103,9 @@
 <div class="sg-body sg-container" style="width: 90%; margin-left: auto; margin-right: auto;">
   <div class="sg-info">
     <div class="sg-about sg-section">
-      <h2 class="sg-h2"><a id="sg-about" class="sg-anchor">About</a></h2>
-      <p>Comments and documentation about your style guide. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis enim labore facilis consequuntur! Veritatis neque est suscipit tenetur temporibus enim consequatur deserunt perferendis. Neque nemo iusto minima deserunt amet.</p>
+      <h2 class="sg-h2"><a id="sg-about" class="sg-anchor">Why is a style guide important?</a></h2>
+      <br>
+      <p>In a nutshell, a style guide helps to ensure a continuous brand experience. It means that no matter how, when or where a customer experiences a brand, they are experiencing the same underlying traits. It’s this consistency across every touch-point that helps build a brand and brand loyalty. And with 2.4 billion Internet users around the world (and growing), it’s really more critical than ever for businesses to establish a comprehensive style guide.</p>
     </div><!--/.sg-about-->
 
     <div class="sg-colors sg-section">
@@ -111,98 +116,189 @@
         <div class="sg-color sg-color--d"><span class="sg-color-swatch"><span class="sg-animated">#3DA6D2 (61,166,210)</span></span></div>
         <div class="sg-color sg-color--e"><span class="sg-color-swatch"><span class="sg-animated">#42b3df (66,179,223)</span></span></div>
         <div class="sg-color sg-color--f"><span class="sg-color-swatch"><span class="sg-animated">#48bfeb (72,191,235)</span></span></div>
+        <div class="sg-color sg-color--h"><span class="sg-color-swatch"><span class="sg-animated">#b2b2b2 (178,178,178)</span></span></div>
         <div class="sg-color sg-color--g"><span class="sg-color-swatch"><span class="sg-animated">#feffff (254,255,255)</span></span></div>
         <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
     </div><!--/.sg-colors-->
 
     <div class="sg-font-stacks sg-section">
-      <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Font Stacks</a></h2>
-      <p class="sg-font sg-font-primary"><a target="_blank" href="http://www.typography.com/fonts/knockout/webfonts/knockout-28/">"Knockout 28 A", "Knockout 28 B", "Arial", sans-serif;</a></p>
-      <p class="sg-font sg-font-secondary"><a target="_blank" href="https://stripe.com/">"Whitney SSm A", "Whitney SSm B", "Arial", sans-serif;</a></p>
+      <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Typography</a></h2>
+      <table class="table table-bordered">
+      <tr>
+        <td><a target="_blank" href="http://www.typography.com/fonts/knockout/webfonts/knockout-28/">Knockout 28 A</a></td>
+        <td>
+          <img src="images/text/knockout.png" style="max-width:950px;">
+        </td>
+      </tr>
+      <td><a target="_blank" href="http://www.typography.com/fonts/whitney/webfonts/whitneyssm-book/">Whitney SSm A</a></td>
+        <td>
+          <img src="images/text/whitney.png" style="max-width:950px;">
+        </td>
+      </tr>
+      </table>
       <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
     </div><!--/.sg-font-stacks-->
   </div><!--/.sg-info-->
 
   <div class="sg-logos sg-section">
     <h2 class="sg-h2"><a id="sg-logos" class="sg-anchor">Logos</a></h2>
-    <p>Add your personalized documentation here.</p>
-    <figure class="flt-left">
-      <img src="images/logos/bluelabs-logo-large-blue.png" alt="Image Alt Text">
-      <figcaption>bluelabs-logo-large-blue.png</figcaption>
-    </figure>
-    <figure>
-      <img class="sg-logo-bg-dark" src="images/logos/bluelabs-logo-large-white.png" alt="Image Alt Text">
-      <figcaption>bluelabs-logo-large-white.png</figcaption>
-    </figure>
-<!--       <figure class="clear">
-      <img src="images/logos/bluelabs-logo-small-blue.png" alt="Image Alt Text">
-      <figcaption>bluelabs-logo-small-blue.png</figcaption>
-    </figure> -->
-<!--       <figure class="clear">
-      <img class="sg-logo-bg-dark" src="images/logos/bluelabs-logo-starburst-white-1500px.png" alt="Image Alt Text">
-      <figcaption>bluelabs-logo-starburst-white-1500px.png</figcaption>
-    </figure> -->
-    <figure class="clear flt-left">
-      <img src="images/logos/bluelabs-text-only-large-blue.png" alt="Image Alt Text">
-      <figcaption>bluelabs-text-only-large-blue.png</figcaption>
-    </figure>
-    <figure class="flt-left">
-      <img class="sg-logo-bg-dark" src="images/logos/bluelabs-text-only-large-white.png" alt="Image Alt Text">
-      <figcaption>bluelabs-text-only-large-white.png</figcaption>
-    </figure>
-    <figure class="flt-left clear">
-      <img src="images/logos/starburst-blue.png" alt="Image Alt Text" style="height:194px;">
-      <figcaption>starburst-blue.png</figcaption>
-    </figure>
-    <figure class="flt-left">
-      <img class="sg-logo-bg-dark" src="images/logos/starburst-white.png" alt="Image Alt Text">
-      <figcaption>starburst-white.png</figcaption>
-    </figure>
+    <br>
+    <p>Our logo is the touchstone of our brand and one of our most valualble assets. We must ensure proper use. The following logos are the only BlueLabs Logos that have been approved for use. <strong>Before using any of these logos please get in touch with Kat to make sure that you are using the proper logo.</strong></p>
+    <br>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Logo</th>
+          <th>Download Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="images/logos/bluelabs-logo-large-blue.png" alt="Image Alt Text" style="max-width:350px;"></td>
+          <td><a download href="images/logos/bluelabs-logo-large-blue.png">Download</a></td>
+        </tr>
+        <tr>
+          <td><img src="images/logos/bluelabs-logo-large-white.png" alt="Image Alt Text" style="max-width:350px; background:#236995;"></td>
+          <td><a download href="images/logos/bluelabs-logo-large-white.png">Download</a></td>
+        </tr>
+        <tr>
+          <td><img src="images/logos/bluelabs-text-only-large-blue.png" alt="Image Alt Text" style="max-width:350px;"></td>
+          <td><a download href="images/logos/bluelabs-text-only-large-blue.png">Download</a></td>
+        </tr>
+        <tr>
+          <td><img src="images/logos/bluelabs-text-only-large-white.png" alt="Image Alt Text" style="max-width:350px; background:#236995;"></td>
+          <td><a download href="images/logos/bluelabs-text-only-large-white.png">Download</a></td>
+        </tr>
+        <tr>
+          <td><img src="images/logos/starburst-blue.png" alt="Image Alt Text" style="max-width:350px;"></td>
+          <td><a download href="images/logos/starburst-blue.png">Download</a></td>
+        </tr>
+        <tr>
+          <td><img src="images/logos/starburst-white.png" alt="Image Alt Text" style="max-width:350px; background:#236995;"></td>
+          <td><a download href="images/logos/starburst-white.png">Download</a></td>
+        </tr>
+      </tbody>
+    </table>
     <div class="sg-markup-controls clear"><a class="sg-btn--top" href="#top">Back to Top</a></div>
   </div><!--/.sg-font-stacks-->
 
   <div class="sg-dos-donts sg-section">
-    <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Style Guide Don'ts</a></h2>
-    <figure>
-      <h4>BlueLabs</h4>
-      <h4>blue.labs</h4>
-      <h4>Blue.Labs</h4>
-    </figure>
-    <figure>
-      <img src="images/dont/bluelabs-no-under-text.png" style="width: 200px;" alt="Image Alt Text">
-      <figcaption>The logo above that has not text under it should never be used outside of the website.</figcaption>
-    </figure>
-    <figure>
-      <img src="images/dont/bluelabs-logomarque-black_1200.png" style="width: 200px;" alt="Image Alt Text">
-      <figcaption>No BlueLabs logo should ever have periods separating the logo. Also periods should never be used. The only spacer that should be used in the logo is a bullet.</figcaption>
-    </figure>
+    <h2 class="sg-h2"><a id="sg-dos-donts" class="sg-anchor">Style Guide Don'ts</a></h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Case</th>
+          <th>Why its wrong</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><h4>Blue Labs</h4></td>
+          <td>The company name "BlueLabs", when typed out, is always one word.</td>
+        </tr>
+        <tr>
+          <td><h4>blue.labs</h4></td>
+          <td>When typing the company name in print, BlueLabs, the "B" and "L" in BlueLabs should always be capitalized. Also, there should never be any punctuation in the middle of the word as it is one word and not two.</td>
+        </tr>
+        <tr>
+          <td><h4>Blue.Labs</h4></td>
+          <td>There should never be any punctuation in the middle of the word as it is one word and not two.</td>
+        </tr>
+        <tr>
+          <td><img src="images/dont/bluelabs-no-under-text.png" style="width: 200px;" alt="Image Alt Text"></td>
+          <td>The logo above that has not text under it should never be used outside of the website.</td>
+        </tr>
+        <tr>
+          <td><img src="images/dont/bluelabs-logomarque-black_1200.png" style="width: 200px;" alt="Image Alt Text"></td>
+          <td>No BlueLabs logo should ever have periods separating the logo. Also periods should never be used. The only spacer that should be used in the logo is a bullet.</td>
+        </tr>
+      </tbody>
+    </table>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
   </div><!--/.sg-info-->
 
   <div class="sg-pictures sg-section">
-    <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Email Signature</a></h2>
+    <h2 class="sg-h2"><a id="sg-email" class="sg-anchor">Email Signature</a></h2>
+    <br>
     <p>The email signature below should be used on all staff person's emails sent from a bluelabs.com email address.</p>
     <br>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Structure</th>
+          <th>Example</th>
+          <th>Instructions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <span style="font-size: 1.2em;"><strong style="color: #2E82AE;">[FULL NAME],</strong> [JOB TITLE]</span> </br>
+              T: [PHONE NUMBER]  |  bluelabs.com  |  twitter.com/blue_labs
+            </p>
+          </td>
+          <td>
+            <p>
+              <span style="font-size: 1.2em;"><strong style="color: #2E82AE;">Courtney Eimerman-Wallace,</strong> Software Engineer</span> </br>
+              T: 312 505 1093  |  bluelabs.com  |  twitter.com/blue_labs
+            </p>
+          </td>
+          <td style="width: 250px;"><p>You can find instructions for creating your signature <a download href="docs/signature_instructions.pdf">HERE</a>.</p></td>
+        </tr>
+      </tbody>
+    </table>
     <br>
-    <span style="font-size: 1.2em;"><strong style="color: #2E82AE;">Courtney Eimerman-Wallace,</strong> Software Engineer</span> </br>
-    T: 312 505 1093  |  bluelabs.com  |  twitter.com/blue_labs
-    <br>
-    <br>
-    <p>You can find instructions for creating your signature <a download href="docs/signature_instructions.pdf">HERE</a>.</p>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
   </div><!--/.sg-info-->
 
- <!--  <div class="sg-pictures sg-section">
-    <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Pictures</a></h2>
-    <p>The pictures we use are expressive, show real emotions and are cropped for maximum effect.</p>
-    <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
-  </div> --><!--/.sg-info-->
-
    <div class="sg-pictures sg-section">
-    <h2 class="sg-h2"><a id="sg-pictures" class="sg-anchor">Templates</a></h2>
-    <p>Presentation Template (<a download href="docs/bl_at_a_glance.key">Keynote</a> | <a href="docs/bl_at_a_glance.pptx" download>Powerpoint</a>)</p>
-    <p>Alternate Presentation Template (<a download href="docs/bluelabs_basic_sample.key">Keynote</a> | <a href="docs/bluelabs_basic_sample.pptx" download>Powerpoint</a>)</p>
-    <p>Proposal Template (<a href="docs/sample_proposal.key" download>Keynote</a> | <a href="docs/sample_proposal.pptx" download>Powerpoint</a>)</p>
+    <h2 class="sg-h2"><a id="sg-templates" class="sg-anchor">Templates</a></h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Template</th>
+          <th>Use Case</th>
+          <th>Download Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="images/templates/presentation.png" style="width: 200px;" alt="Image Alt Text"></td>
+          <td>
+            <p>This template should be used for:</p>
+            <ul>
+              <li>More formal speaking events</li>
+              <li>Presentations that have a lot of information.</li>
+            </ul>
+            <p><em>Example: Sales pitch meeting.</em></p>
+          </td>
+          <td><p>Presentation Template (<a download href="docs/bl_at_a_glance.key">Keynote</a> | <a href="docs/bl_at_a_glance.pptx" download>Powerpoint</a>)</p></td>
+        </tr>
+        <tr>
+          <td><img src="images/templates/alternate_pres.png" style="width: 200px;" alt="Image Alt Text"></td>
+          <td>
+            <p>This template should be used for:</p>
+            <ul>
+              <li>Casual speaking events</li>
+              <li>Presentations that have 20 slide or fewer.</li>
+            </ul>
+            <p><em>Example: Predictive Analytics webinar.</em></p>
+          </td>
+          <td><p>Alternate Presentation Template (<a download href="docs/bluelabs_basic_sample.key">Keynote</a> | <a href="docs/bluelabs_basic_sample.pptx" download>Powerpoint</a>)</p></td>
+        </tr>
+        <tr>
+          <td><img src="images/templates/proposal.png" style="width: 200px;" alt="Image Alt Text"></td>
+          <td>
+            <p>This template should be used for:</p>
+            <ul>
+              <li>Proposals only</li>
+            </ul>
+          </td>
+          <td><p>Proposal Template (<a href="docs/sample_proposal.key" download>Keynote</a> | <a href="docs/sample_proposal.pptx" download>Powerpoint</a>)</p></td>
+        </tr>
+      </tbody>
+    </table>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
    </div><!--/.sg-info
 
