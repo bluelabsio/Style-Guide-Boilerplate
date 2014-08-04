@@ -68,6 +68,7 @@
 ?>
 <!DOCTYPE html>
 <head>
+<meta name="robots" content="noindex,nofollow"/>
 <meta charset="utf-8">
   <title>BlueLabs Style Guide</title>
   <meta name="viewport" content="width=device-width">
@@ -280,7 +281,7 @@
             </ul>
             <p><em>Example: Sales pitch meeting.</em></p>
           </td>
-          <td><p>Presentation Template (<a download href="docs/bl_at_a_glance.key">Keynote</a> | <a href="docs/bl_at_a_glance.pptx" download>Powerpoint</a>)</p></td>
+          <td><p>Presentation Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhUEhDSE1nNmt0WVU/edit?usp=sharing">Keynote</a> | <a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhOFJmcWY1ZFF6ck0/edit?usp=sharing">Powerpoint</a>)</p></td>
         </tr>
         <tr>
           <td><img src="images/templates/alternate_pres.png" style="width: 200px;" alt="Image Alt Text"></td>
@@ -292,7 +293,7 @@
             </ul>
             <p><em>Example: Predictive Analytics webinar.</em></p>
           </td>
-          <td><p>Alternate Presentation Template (<a download href="docs/bluelabs_basic_sample.key">Keynote</a> | <a href="docs/bluelabs_basic_sample.pptx" download>Powerpoint</a>)</p></td>
+          <td><p>Alternate Presentation Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhbVQ0MUc2ODRnVk0/edit?usp=sharing">Keynote</a> | <a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhbTZjWFNMdnRnUEk/edit?usp=sharing">Powerpoint</a>)</p></td>
         </tr>
         <tr>
           <td><img src="images/templates/proposal.png" style="width: 200px;" alt="Image Alt Text"></td>
@@ -302,7 +303,7 @@
               <li>Proposals only</li>
             </ul>
           </td>
-          <td><p>Proposal Template (<a href="docs/sample_proposal.key" download>Keynote</a> | <a href="docs/sample_proposal.pptx" download>Powerpoint</a>)</p></td>
+          <td><p>Proposal Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhcFZKVlkyREZ6Ylk/edit?usp=sharing">Keynote</a> | <a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhOVlST2JSX01iams/edit?usp=sharing">Powerpoint</a>)</p></td>
         </tr>
       </tbody>
     </table>
