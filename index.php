@@ -134,13 +134,13 @@
         <td>
           <img src="images/text/knockout.png" style="max-width:800px;">
         </td>
-        <td>BlueLabs Website Headers</td>
+        <td>Website Headers</td>
       </tr>
       <td><a target="_blank" href="http://www.typography.com/fonts/whitney/webfonts/whitneyssm-book/">Whitney SSm A</a></td>
         <td>
           <img src="images/text/whitney.png" style="max-width:800px;">
         </td>
-        <td>BlueLabs Website Body Copy</td>
+        <td>Website Body Copy</td>
       </tr>
       </table>
       <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
