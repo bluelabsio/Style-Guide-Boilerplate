@@ -91,8 +91,8 @@
           <option value="#sg-fontStacks">Typography</option>
           <option value="#sg-logos">Logo Usage</option>
           <option value="#sg-dos-donts">BlueLabs Style Don'ts</option>
-          <option value="#sg-email">Email Signature</option>
-          <option value="#sg-templates">Templates</option>
+<!--           <option value="#sg-email">Email Signature</option>
+ -->          <option value="#sg-templates">Templates</option>
         </optgroup>
     </select>
     <input type="hidden" name="sg_uri" value="<?php echo $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>">
@@ -125,15 +125,22 @@
       <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Typography</a></h2>
       <table class="table table-bordered">
       <tr>
-        <td><a target="_blank" href="http://www.typography.com/fonts/knockout/webfonts/knockout-28/">Knockout 28 A</a></td>
+        <th>Font Family</th>
+        <th>Example Text</th>
+        <th>Use Case</th>
+      </tr>
+      <tr>
+        <td style="min-width:125px;"><a target="_blank" href="http://www.typography.com/fonts/knockout/webfonts/knockout-28/">Knockout 28 A</a></td>
         <td>
-          <img src="images/text/knockout.png" style="max-width:950px;">
+          <img src="images/text/knockout.png" style="max-width:800px;">
         </td>
+        <td>BlueLabs Website Headers</td>
       </tr>
       <td><a target="_blank" href="http://www.typography.com/fonts/whitney/webfonts/whitneyssm-book/">Whitney SSm A</a></td>
         <td>
-          <img src="images/text/whitney.png" style="max-width:950px;">
+          <img src="images/text/whitney.png" style="max-width:800px;">
         </td>
+        <td>BlueLabs Website Body Copy</td>
       </tr>
       </table>
       <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
@@ -217,7 +224,7 @@
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
   </div><!--/.sg-info-->
 
-  <div class="sg-pictures sg-section">
+  <!-- <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-email" class="sg-anchor">Email Signature</a></h2>
     <br>
     <p>The email signature below should be used on all staff person's emails sent from a bluelabs.com email address.</p>
@@ -250,7 +257,7 @@
     </table>
     <br>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
-  </div><!--/.sg-info-->
+  </div> --><!--/.sg-info-->
 
    <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-templates" class="sg-anchor">Templates</a></h2>
