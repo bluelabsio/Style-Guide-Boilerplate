@@ -305,6 +305,26 @@
           </td>
           <td><p>Proposal Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhcFZKVlkyREZ6Ylk/edit?usp=sharing">Keynote</a> | <a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhOVlST2JSX01iams/edit?usp=sharing">Powerpoint</a>)</p></td>
         </tr>
+        <tr>
+          <td><img src="images/templates/letter_img.png" style="width: 200px;" alt="Image Alt Text"></td>
+          <td>
+            <p>This template should be used for:</p>
+            <ul>
+              <li>Any document that needs to be on BlueLabs Letterhead.</li>
+            </ul>
+          </td>
+          <td><p>Letter Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhMXoxN0tlSG44eFk/edit?usp=sharing">Word Doc</a>)</p></td>
+        </tr>
+        <tr>
+          <td><img src="images/templates/memo_img.png" style="width: 200px;" alt="Image Alt Text"></td>
+          <td>
+            <p>This template should be used for:</p>
+            <ul>
+              <li>Any BlueLabs Memo.</li>
+            </ul>
+          </td>
+          <td><p>Memo Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhSDlrWEVCUk9CMVE/edit?usp=sharing">Word Doc</a>)</p></td>
+        </tr>
       </tbody>
     </table>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
