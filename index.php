@@ -92,8 +92,8 @@
           <option value="#sg-fontStacks">Typography</option>
           <option value="#sg-logos">Logo Usage</option>
           <option value="#sg-dos-donts">BlueLabs Style Don'ts</option>
-<!--           <option value="#sg-email">Email Signature</option>
- -->          <option value="#sg-templates">Templates</option>
+          <option value="#sg-email">Email Signature</option>
+          <option value="#sg-templates">Templates</option>
         </optgroup>
     </select>
     <input type="hidden" name="sg_uri" value="<?php echo $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>">
@@ -225,7 +225,7 @@
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
   </div><!--/.sg-info-->
 
-  <!-- <div class="sg-pictures sg-section">
+   <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-email" class="sg-anchor">Email Signature</a></h2>
     <br>
     <p>The email signature below should be used on all staff person's emails sent from a bluelabs.com email address.</p>
@@ -242,23 +242,23 @@
         <tr>
           <td>
             <p>
-              <span style="font-size: 1.2em;"><strong style="color: #2E82AE;">[FULL NAME],</strong> [JOB TITLE]</span> </br>
+              <span style="font-size: 1.2em;"><strong style="color: #2E82AE;">[FULL NAME]<!-- , --></strong> <!-- [JOB TITLE] --></span> </br>
               T: [PHONE NUMBER]  |  bluelabs.com  |  twitter.com/blue_labs
             </p>
           </td>
           <td>
             <p>
-              <span style="font-size: 1.2em;"><strong style="color: #2E82AE;">Courtney Eimerman-Wallace,</strong> Software Engineer</span> </br>
+              <span style="font-size: 1.2em;"><strong style="color: #2E82AE;">Courtney Eimerman-Wallace<!-- , --></strong><!-- Software Engineer --></span> </br>
               T: 312 505 1093  |  bluelabs.com  |  twitter.com/blue_labs
             </p>
           </td>
-          <td style="width: 250px;"><p>You can find instructions for creating your signature <a download href="docs/signature_instructions.pdf">HERE</a>.</p></td>
+          <td style="width: 250px;"><p>You can find instructions for creating your signature <a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhYklFQWVoeGljLTg/edit?usp=sharing">HERE</a>.</p></td>
         </tr>
       </tbody>
     </table>
     <br>
     <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
-  </div> --><!--/.sg-info-->
+  </div> <!--/.sg-info-->
 
    <div class="sg-pictures sg-section">
     <h2 class="sg-h2"><a id="sg-templates" class="sg-anchor">Templates</a></h2>
