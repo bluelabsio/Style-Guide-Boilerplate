@@ -313,7 +313,7 @@
               <li>Any document that needs to be on BlueLabs Letterhead.</li>
             </ul>
           </td>
-          <td><p>Letter Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhMXoxN0tlSG44eFk/edit?usp=sharing">Word Doc</a>)</p></td>
+          <td><p>Letter Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhRU1DTWdVZGlJWVU/edit?usp=sharing">Word Doc</a>)</p></td>
         </tr>
         <tr>
           <td><img src="images/templates/memo_img.png" style="width: 200px;" alt="Image Alt Text"></td>
@@ -323,7 +323,7 @@
               <li>Any BlueLabs Memo.</li>
             </ul>
           </td>
-          <td><p>Memo Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhSDlrWEVCUk9CMVE/edit?usp=sharing">Word Doc</a>)</p></td>
+          <td><p>Memo Template (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhNVFWVk05UlhwdTA/edit?usp=sharing">Word Doc</a>)</p></td>
         </tr>
       </tbody>
     </table>
