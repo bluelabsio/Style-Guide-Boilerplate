@@ -162,28 +162,28 @@
       </thead>
       <tbody>
         <tr>
-          <td><img src="images/logos/bluelabs-logo-large-blue.png" alt="Image Alt Text" style="max-width:350px;"></td>
-          <td><a download href="images/logos/bluelabs-logo-large-blue.png">Download</a></td>
+          <td><img src="images/logos/bluelabs-full-large-blue.png" alt="Image Alt Text" style="max-width:350px;"></td>
+          <td>Print (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhVWpjVWs2blhiS2c/edit?usp=sharing">Download</a>) <br> Web (<a target="_blank" href="http://bit.ly/1yipP1Z">Small</a> | <a target="_blank" href="http://bit.ly/1tnXvH5">Medium</a> | <a target="_blank" href="http://bit.ly/1qhrCtT">Large</a> ) <br><br> <strong>Max Sizes:</strong> <br> <p>Small: 358px x 99px</p><p>Medium: 715px x 198px</p><p>Large: 1430px x 396px</p></td>
         </tr>
         <tr>
-          <td><img src="images/logos/bluelabs-logo-large-white.png" alt="Image Alt Text" style="max-width:350px; background:#236995;"></td>
-          <td><a download href="images/logos/bluelabs-logo-large-white.png">Download</a></td>
+          <td><img src="images/logos/bluelabs-full-large-white.png" alt="Image Alt Text" style="max-width:350px; background:#236995;"></td>
+          <td>Print (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhemw1VlBQXzVhNmM/edit?usp=sharing">Download</a>) <br> Web (<a target="_blank" href="http://bit.ly/1r2jRNs">Small</a> | <a target="_blank" href="http://bit.ly/1DlGj9u">Medium</a> | <a target="_blank" href="http://bit.ly/1suZo0n">Large</a> ) <br><br> <strong>Max Sizes:</strong> <br> <p>Small: 358px x 99px</p><p>Medium: 715px x 198px</p><p>Large: 1430px x 396px</p></td>
         </tr>
         <tr>
-          <td><img src="images/logos/bluelabs-text-only-large-blue.png" alt="Image Alt Text" style="max-width:350px;"></td>
-          <td><a download href="images/logos/bluelabs-text-only-large-blue.png">Download</a></td>
+          <td><img src="images/logos/bluelabs-only-large-blue.png" alt="Image Alt Text" style="max-width:350px;"></td>
+          <td>Print (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhYTVqcXlwNEczOEE/edit?usp=sharing">Download</a>) <br> Web (<a target="_blank" href="http://bit.ly/1s8AUQi">Small</a> | <a target="_blank" href="http://bit.ly/1qhrsm8">Medium</a> | <a target="_blank" href="http://bit.ly/1udGSM8">Large</a> ) <br><br> <strong>Max Sizes:</strong> <br> <p>Small: 251px x 80px</p><p>Medium: 501px x 160px</p><p>Large: 1002px x 320px</p></td>
         </tr>
         <tr>
-          <td><img src="images/logos/bluelabs-text-only-large-white.png" alt="Image Alt Text" style="max-width:350px; background:#236995;"></td>
-          <td><a download href="images/logos/bluelabs-text-only-large-white.png">Download</a></td>
+          <td><img src="images/logos/bluelabs-only-large-white.png" alt="Image Alt Text" style="max-width:350px; background:#236995;"></td>
+          <td>Print (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhV010MTNDbUFzTEE/edit?usp=sharing">Download</a>) <br> Web (<a target="_blank" href="http://bit.ly/1BQ5LlP">Small</a> | <a target="_blank" href="http://bit.ly/1r3S9P4">Medium</a> | <a target="_blank" href="http://bit.ly/1u3NKQ3">Large</a> ) <br><br> <strong>Max Sizes:</strong> <br> <p>Small: 251px x 80px</p><p>Medium: 501px x 160px</p><p>Large: 1002px x 320px</p></td>
         </tr>
         <tr>
-          <td><img src="images/logos/starburst-blue.png" alt="Image Alt Text" style="max-width:350px;"></td>
-          <td><a download href="images/logos/starburst-blue.png">Download</a></td>
+          <td><img src="images/logos/starburst-large-blue.png" alt="Image Alt Text" style="max-width:250px;"></td>
+          <td>Print (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhSnNDUmxPbGJTYzg/edit?usp=sharing">Download</a>) <br> Web (<a target="_blank" href="http://bit.ly/1uKP8FY">Small</a> | <a target="_blank" href="http://bit.ly/1uWFyOo">Medium</a> | <a target="_blank" href="http://bit.ly/1udIsOc">Large</a> ) <br><br> <strong>Max Sizes:</strong> <br> <p>Small: 194px x 194px</p><p>Medium: 388px x 388px</p><p>Large: 776px x 776px</p></td>
         </tr>
         <tr>
-          <td><img src="images/logos/starburst-white.png" alt="Image Alt Text" style="max-width:350px; background:#236995;"></td>
-          <td><a download href="images/logos/starburst-white.png">Download</a></td>
+          <td><img src="images/logos/starburst-large-white.png" alt="Image Alt Text" style="max-width:250px; background:#236995;"></td>
+          <td>Print (<a target="_blank" href="https://drive.google.com/a/bluelabs.com/file/d/0ByANPVgHNzKhekY2WlVZM3ZIbjg/edit?usp=sharing">Download</a>) <br> Web (<a target="_blank" href="http://bit.ly/1mfWvUy">Small</a> | <a target="_blank" href="http://bit.ly/XLjjQG">Medium</a> | <a target="_blank" href="http://bit.ly/1to2p6U">Large</a> ) <br><br> <strong>Max Sizes:</strong> <br> <p>Small: 194px x 194px</p><p>Medium: 388px x 388px</p><p>Large: 776px x 776px</p></td>
         </tr>
       </tbody>
     </table>
